@@ -1,5 +1,4 @@
 let desserts = new Array("1 Gâteau au chocolat","2 Salade de fruits","3 Sorbet coco","4 Tarte tatin") ;
-
 while (true) {
 	const nombre = Number(prompt(("Faites votre choix : ") + (desserts.join(' - ')) + " : (numéro du dessert)"));
 	if (nombre === 1) {
